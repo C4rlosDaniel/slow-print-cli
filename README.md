@@ -77,6 +77,17 @@ It asks the user questions and responds with motivational messages animated usin
 ```
 
 ---
+## 📂 .gitignore
+
+This project includes a `.gitignore` file to prevent unnecessary or auto-generated files from being tracked by Git.  
+It ensures a clean repository and avoids committing Python cache folders and temporary files.
+
+The `.gitignore` file ignores:
+- `__pycache__/`
+- Python bytecode files (`*.pyc`)
+- Temporary system files
+- Virtual environment folders (such as `venv/`)
+
 
 ## ▶️ How to Run
 
